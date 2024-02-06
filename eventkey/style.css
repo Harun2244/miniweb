@@ -1,0 +1,65 @@
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    background-color: ivory;
+    font-family: "Ubuntu" , sans-serif;
+}
+
+.container {
+    border-radius: 14px;
+    width: 500px;
+    height: 380px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+    align-items: center;
+}
+
+
+
+
+
+.style{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 120px;
+    height: 68.1px;
+    border: 1px solid black;
+    justify-content: center;
+    background-color: chartreuse;
+    border-radius: 14px;
+}
+
+#txtAbove{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+    gap: 0.5rem;
+    width: 450px;
+    height: 35px;
+    padding-left: 20px;
+}
+
+#txtAbove > p:nth-child(3){
+    margin-right: 12px;
+}
+
+
+#scndDiv{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 70px;
+    border: 1px solid black;
+}
+
+
+
