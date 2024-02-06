@@ -1,0 +1,41 @@
+body{
+    background-color: #B1c723;
+    font-family: Kanit, sans-serif;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99%;
+    height: 99vh;
+    
+}
+
+#insideDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 25px;
+}
+
+.soundBox{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 100px;
+    background-color: #576410;
+    color: #Dfe2d1;
+    margin: 5px;
+    border-radius:13px ;
+    cursor: pointer;
+}
+
+.boxTxt{
+    padding: 10px 60px;
+    font-size: 18px;
+    cursor: pointer;
+}

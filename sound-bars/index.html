@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Kanit:wght@300&f
+amily=Loved+by+the+King&family=Rubik+Bubbles&family=Spinnaker&family=Ubuntu&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="container">
+        <div id="insideDiv">
+        <div class="soundBox" onclick="playSound('sound1')"><label class="boxTxt">applause</label></div>
+        <div class="soundBox" onclick="playSound('sound2')"><label class="boxTxt">boo</label></div>
+        <div class="soundBox" onclick="playSound('sound3')"><label class="boxTxt">gasp</label></div>
+        <div class="soundBox" onclick="playSound('sound4')"><label class="boxTxt">tada</label></div>
+        <div class="soundBox" onclick="playSound('sound5')"><label class="boxTxt">victory</label></div>
+        <div class="soundBox" onclick="playSound('sound6')"><label class="boxTxt">wrong</label></div>
+    </div>
+    </div>
+
+    <audio id="sound1" src="sounds/applause.mp3"></audio>
+    <audio id="sound2" src="sounds/boo.mp3"></audio>
+    <audio id="sound3" src="sounds/gasp-6253.mp3"></audio>
+    <audio id="sound4" src="sounds/tada.mp3"></audio>
+    <audio id="sound5" src="sounds/victory.mp3"></audio>
+    <audio id="sound6" src="sounds/wrong.mp3"></audio>
+    
+
+<script src="index.js"></script>
+</body>
+</html>
